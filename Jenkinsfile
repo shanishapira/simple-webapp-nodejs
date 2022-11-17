@@ -12,6 +12,8 @@ pipeline {
         stage('clone git') {
             steps {
                 git 'https://github.com/Elad0109/simple-webapp-nodejs.git'
+                
+                
             }
         }
         stage('build') {
